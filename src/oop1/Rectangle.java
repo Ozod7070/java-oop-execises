@@ -4,7 +4,6 @@ public class Rectangle {
     double width;
     double height;
 
-
     Rectangle(){
         width = 1;
         height = 1;
