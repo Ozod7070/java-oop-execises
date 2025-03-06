@@ -1,11 +1,11 @@
 package oop2_9;
 
 public class Ball {
-    float x;
-    float y;
-    int radius;
-    float xDelta;
-    float yDelta;
+    private float x;
+    private float y;
+    private int radius;
+    private float xDelta;
+    private float yDelta;
 
     Ball(float x, float y, int radius, float xDelta, float yDelta){
         this.x = x;
