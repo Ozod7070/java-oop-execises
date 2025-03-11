@@ -54,7 +54,7 @@ public class Book {
     }
     @Override
     public String toString() {
-        return "Book[isbn=" + isbn + ", name=" + name + ", authors=" + author.toString() +
+        return "Book[isbn=" + isbn + ", name=" + name + ", author=" + author.toString() +
                 ", price=" + price + ", qty=" + qty + "]";
     }
 

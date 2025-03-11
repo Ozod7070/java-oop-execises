@@ -1,8 +1,17 @@
 package oop3_3;
 
-public class BookTest {
+public class TestMain {
     public static void main(String[] args) {
-        Book b1 = new Book("12345", "Java for dummies",a1, 8.8, 88);
+        Author a1 = new Author("Tan Ah Teck", "ahteck@nowhere.com");
+        System.out.println(a1);
+
+        a1.setEmail("ahteck@somewhere.com");
+        System.out.println(a1);
+        System.out.println("name is: " + a1.getName());
+        System.out.println("email is: " + a1.getEmail());
+
+
+        Book b1 = new Book("12345", "Java for dummies", a1, 8.8, 88);
         System.out.println(b1);
 
         b1.setPrice(9.9);
@@ -16,5 +25,6 @@ public class BookTest {
         System.out.println("author's name: " + b1.getAuthorName());
         System.out.println("author's name: " + b1.getAuthor().getName());
         System.out.println("author's email: " + b1.getAuthor().getEmail());
+
     }
 }
